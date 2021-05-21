@@ -17,12 +17,14 @@
 ---
 
 ## 📓 Modules
-0. Fundamentals
-1. Design with CSS and Accessibility
-2. Angular
-3. Vue
-4. Special topics in frontend development
-5. Final challenge
+- Fundamentals
+  - <a href="https://github.com/ecpieritz/vue-angular-bootcamp/blob/main/modulo-0/Apostila%20%E2%80%93%20M%C3%B3dulo%200%20%E2%80%93%20Fundamentos%20de%20Front%20End.pdf" target="_blank">Handout</a>
+  - <a href="https://github.com/ecpieritz/vue-angular-bootcamp/blob/main/modulo-0/Slides%20do%20M%C3%B3dulo%200.pdf" target="_blank">Slides</a>
+- Design with CSS and Accessibility
+- Angular
+- Vue
+- Special topics in frontend development
+- Final challenge
 
 ---
 
