@@ -1,6 +1,18 @@
+*{
+--light-blue: #6283af;
+--blue: #114fa0;
+--light-yellow: #f0e5d4;
+--light-gray: #b9b8b8;
+--red: #d80000;
+--darkred:#790000;
+--green: #008607;
+--darkgreen:#005204;
+}
+
 body {
-    background-color: rgb(252, 255, 214);
+    background-color: var(--light-yellow);
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -13,15 +25,17 @@ p {
 
 h1 {
     text-align: center;
+    color: var(--blue);
+    font-size: 2rem;
 }
 
 h3 {
     margin: 10px 0;
 }
 
-#nav {   
-    min-height: 50px;
-    background-color: rgb(207, 43, 43);
+nav {   
+    min-height: 30px;
+    background-color: var(--light-blue);
     padding: 0 20%;
     position: sticky;
     top: 0;
@@ -31,20 +45,27 @@ h3 {
     align-items: center;
 }
 
-#nav > a {
+nav > a {
     color: white;
+    min-height: 30px;
+    padding: 10px 30px 0 30px;
+    
+}
+nav > a:hover {
+    color: var(--light-gray);
+    background-color: var(--blue);
 }
 
-#main {
+main {
     max-width: 1148px;
     margin: 0 auto;
 }
 
-#titulo-principal {
+#main-title {
     text-align: center;
 }
 
-#origem, #principal {
+#origin, #principal {
     display: flex;
     flex-flow: row nowrap;
 }
@@ -54,20 +75,20 @@ h3 {
     margin-bottom: 10px;
 }
 
-#foto-de-bolo {
+#cake-pic {
     width: 100%;
     max-width: 300px;
     max-height: 230px;
 }
 
-#foto-bolo-chocolate {
+#chocolate-cake-pic {
     width: auto;
-    max-height: 250px;
+    max-height: 300px;
     float: left;
     margin-right: 20px;
 }
 
-.origem-do-bolo {
+.cake-origin {
     background-color: white;
     padding: 30px;
 }
@@ -76,39 +97,51 @@ h3 {
     padding: auto;
 }
 
-#quote {
+blockquote {
     background-image: url(/src/img/sweet-cake.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     opacity: 0.5;
-    background-color: rgb(128, 0, 0);
     color: white;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
+    font-size: large;
 }
 
-#ingredientes, .ingredientes {
+.ingredients {
     margin: 20px 10px;
 }
 
-.outros-bolos {
+
+aside {
     background-color: white;
     margin: 10px;
     padding: 20px;
 }
 
-.contato {
-    padding-bottom: 20px;
+#contact {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 30px auto;
+  padding: 10px 20px;
+}
+
+#contact form input,
+#contact form textarea{
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .saiba-mais {
     max-width: auto;
 }
 
-#footer {
-    background-color: #3e3e3e;
-    color: lightgray;
+footer {
+    background-color: var(--light-gray);
+    color: white;
     padding: 10px 11%;
     display: flex;
     flex-flow: row nowrap;
@@ -124,4 +157,34 @@ h3 {
 
 .social-icon:hover {
     cursor: pointer;
+}
+
+button{
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 10px 5px 0;
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+
+/* Background Colors */
+.green-bg{
+  background-color: var(--green);
+}
+
+button.green-bg:hover{
+  background-color: var(--darkgreen);
+}
+
+.red-bg{
+  background-color: var(--red);
+}
+
+button.red-bg:hover{
+  background-color: var(--darkred);
 }
