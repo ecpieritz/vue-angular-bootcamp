@@ -24,6 +24,8 @@
   - <a href="https://github.com/ecpieritz/vue-angular-bootcamp/blob/main/modulo-1/Apostila%20-%20M%C3%B3dulo%201%20-%20Bootcamp%20Desenvolvedor(a)%20Front%20End.pdf" target="_blank">Handout</a>
   - <a href="https://github.com/ecpieritz/vue-angular-bootcamp/blob/main/modulo-1/Slides%20do%20M%C3%B3dulo%2001.pdf" target="_blank">Slides</a>
 - Angular
+  - <a href="https://github.com/ecpieritz/vue-angular-bootcamp/blob/main/modulo-2/Apostila%20-%20M%C3%B3dulo%202%20-%20Bootcamp%20Desenvolvedor(a)%20Front%20End.pdf" target="_blank">Handout</a>
+  - <a href="https://github.com/ecpieritz/vue-angular-bootcamp/blob/main/modulo-2/Slides%20do%20M%C3%B3dulo%2002.pdf" target="_blank">Slides</a>
 - Vue
 - Special topics in frontend development
 - Final challenge
