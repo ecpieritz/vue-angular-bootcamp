@@ -2,8 +2,7 @@
 <h6 align = "center"> pt-Br </h6>
 
 ## 📖 About
-<p>Frontend bootcamp focused on Vue.js and Angular.
-</p>
+<p>Frontend bootcamp focused on Vue.js and Angular.</p>
 
 ---
 
