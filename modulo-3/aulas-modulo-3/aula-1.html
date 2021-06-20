@@ -14,7 +14,7 @@
 </head>
 <body>
   <div id="app">
-    <h1>Hello World</h1>
+    <h1>{{title}} {{name}}!!!</h1>
   </div>
   
   
@@ -25,8 +25,12 @@
   <!-- Vue scripts -->
   <script>
     const app = {
-      
-
+      data(){
+        return{
+          title: 'Hello',
+          name: 'Emilyn'
+        }
+      }
     }
 
     Vue.createApp(app).mount('#app')
